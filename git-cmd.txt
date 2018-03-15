@@ -1,6 +1,6 @@
 git init
-git add file
-git commit -m "something"
+git add file           if you don't git add,then git commit will not work.
+git commit -m "something"     
 git diff 
 git diff --cached
 git status
