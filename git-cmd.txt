@@ -54,4 +54,6 @@ git stash apply stash@{0} 可以恢复多个列表的其中之一。
 git checkout -b dev origin/dev把远程分支clone下来。
 
 **如果在分支中的工作区改变文件而没有添加到暂存区，那么在master中是可以看到文件的改变的。
+也就是说任何的修改都是对于工作区文件的修改，而不同的分支只是在add和commmit之后才能看出明显得差异。(个人理解)
+
 
