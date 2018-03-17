@@ -55,3 +55,6 @@ git checkout -b dev origin/dev把远程分支clone下来。
 
 **如果在分支中的工作区改变文件而没有添加到暂存区，那么在master中是可以看到文件的改变的。
 
+
+
+asasdf
