@@ -37,7 +37,16 @@ $ git checkout dev
 Switched to branch 'dev'
 
 git branch命令会列出所有分支，当前分支前面会标一个*号。
+git branch -d <name>删除一个分支。
+git branch -D <name>强行删除一个没有合并的分支。
 
 git merge命令用于合并指定分支到当前分支。
 
-git merge --no-ff -m "merge with no-ff  
+git merge --no-ff -m "merge with no-ff 
+
+git stash，可以把当前工作现场“储藏”起来，等以后恢复现场后继续工作。
+git stash list 可以查看被隐藏的工作列表。
+git stash apply可以恢复工作现场，但是恢复后，stash内容并不删除，你需要用git stash drop来删除。
+git stash pop，恢复的同时把stash内容也删了。
+git stash apply stash@{0} 可以恢复多个列表的其中之一。
+
