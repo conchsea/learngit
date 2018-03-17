@@ -39,3 +39,5 @@ Switched to branch 'dev'
 git branch命令会列出所有分支，当前分支前面会标一个*号。
 
 git merge命令用于合并指定分支到当前分支。
+
+git merge --no-ff -m "merge with no-ff  
