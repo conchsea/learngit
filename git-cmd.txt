@@ -50,3 +50,5 @@ git stash apply可以恢复工作现场，但是恢复后，stash内容并不删
 git stash pop，恢复的同时把stash内容也删了。
 git stash apply stash@{0} 可以恢复多个列表的其中之一。
 
+在新的工作目录clone时，只能得到master分支，如果想要其他分支，需要
+git checkout -b dev origin/dev把远程分支clone下来。
